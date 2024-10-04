@@ -4,12 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car</title>
+    <title>About Cats</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>BMW</h1>
-<img src="img/istockphoto-1502960058-612x612.webp" alt="car">
+  <h1>CatPhotoApp</h1>
+  <h2>Cat Photos</h2>
+  <p>See more <a href=" https://freecatphotoapp.com/">cat photos</a>  in our gallery.</p>
+  <a href="https://freecatphotoapp.com/"><img src="img/relaxing-cat.jpg" alt="relaxing cat"></a>
+  <h2>Cat Lists</h2>
+  <h3>Things cats love</h3>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <h3>Top 3 things cats hate:</h3>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+
+  <img src="img/cats.jpg" alt="cats">
+  <p>Cats hate other cats</p>
+  <h2>Cat Form</h2>
+
+  <fieldset>
+    <legend>
+      Is your cat an indoor or outdoor cat?
+      </legend>
+
+     <div>
+  <label for="#indoor">
+    <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>
+    Indoor
+  </label>
+ 
+  <label for="#outdoor">
+    <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+    Outdoor
+  </label>
+</div>
+</fieldset>
+<fieldset>
+  <legend>What's your cat's personality?</legend>
+  <div>
+    <label for="#loving" ><input type="checkbox" id="loving" value="loving" >Loving</label>
+    <label for="#lazy"><input type="checkbox" id="lazy" value="lazy">Lazy</label>
+    <label for="#energetic"><input type="checkbox" id="energetic" value="energetic">Energetic</label>
+  </div>
+  
+  
+</fieldset>
+<form action="">
+<input type="text" placeholder="cat photo URL">
+<button type="submit">Submit</button>
+</form>
+<p>No copyright - <a href=" https://www.freecodecamp.org/">freeCodeCamp.org</a></p>
 </body>
 </html>
